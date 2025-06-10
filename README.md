@@ -57,9 +57,7 @@ A preview of the system:
 
 ✅ Example Request/Response
 🟢 Request (POST /api/order)
-json
-Copy
-Edit
+
 {
   "items": [1, 2]
 }
