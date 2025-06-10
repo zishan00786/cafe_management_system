@@ -76,7 +76,87 @@ A preview of the system:
 
 Teammate Name – Md Zishan
                 dev kaushik
-           
+
+
+Core Feature Implementation 
+
+Users can:
+
+View cafe menu (GET /api/menu)
+
+Select items
+
+Place order (POST /api/order)
+
+Get total bill with item list
+
+🛡️ Error Handling & Robustness ✅
+
+Frontend alerts if no item is selected
+
+Backend checks for:
+
+Empty item list
+
+Invalid IDs
+
+Graceful error messages are shown to users
+
+🔗 Integration of Components ✅
+
+Frontend communicates with backend using fetch()
+
+Backend responds with JSON, properly handled on UI
+
+All components work together smoothly
+
+⚙️ Event Handling and Processing ✅
+
+JavaScript listens for order submission
+
+Optimized for responsiveness and performance
+
+✔️ Data Validation ✅
+
+Frontend: Validates selection before allowing submission
+
+Backend: Validates item existence before calculating total
+
+📐 Code Quality & Innovation ✅
+
+Code is modular and well-commented
+
+Spring Boot backend uses:
+
+Controller layer
+
+Model layer
+
+Repository layer
+
+Extra: You can optionally add admin feature or item search (bonus)
+
+📄 Project Documentation ✅
+
+Full README.md with:
+
+Setup instructions for frontend and backend
+
+API details and usage
+
+Sample request and response
+
+Real/placeholder screenshots
+
+All files are properly structured and documented
+
+👨‍💻 Developer
+
+Md Zishan
+
+kamran alam
+
+dev kaushik
 
 
 
